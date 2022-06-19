@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "SendMail": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "CONNECTION_STRING": "",
+        "QUEUE": ""
+      },
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
